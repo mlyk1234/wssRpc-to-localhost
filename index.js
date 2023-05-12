@@ -1,7 +1,7 @@
 const WebSocket = require('ws');
 
 // Connect to the Alchemy WebSocket endpoint
-const alchemyEndpoint = new WebSocket('wss://eth-mainnet.g.alchemy.com/v2/k0iM55GfFo5mQLDe1Wx0PDX54cGkwnQE');
+const alchemyEndpoint = new WebSocket('YOUR_WSS_PRC_PROVIDER_URL');
 
 // When the Alchemy socket is open, create a local WebSocket server
 alchemyEndpoint.on('open', () => {
